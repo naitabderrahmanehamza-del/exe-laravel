@@ -7,6 +7,8 @@ use App\Http\Controllers\welkomcontroler;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+
+// ikii
 Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:sanctum');
